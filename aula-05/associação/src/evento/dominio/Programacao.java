@@ -2,15 +2,6 @@ package evento.dominio;
 
 import java.time.LocalTime;
 
-/**
-- id: Long
-- titulo: String
-- horario: LocalTime
-- responsavel: String
-- evento: Evento
- * Programacao
- */
-
 public class Programacao {
 
     private Long id;

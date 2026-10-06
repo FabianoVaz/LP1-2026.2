@@ -6,17 +6,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-/** 
-- id: Long
-- nome: String
-- data: LocalDate
-- local: String
-- capacidade: int
-- organizador: Organizador
-- programacao: List<Programacao>
-- participantes: Set<Participante>
- */
-
 public class Evento {
     // Atributos
     private Long id;

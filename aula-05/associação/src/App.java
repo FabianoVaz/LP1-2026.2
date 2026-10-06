@@ -4,15 +4,6 @@ import evento.dominio.Evento;
 import evento.dominio.Organizador;
 import evento.dominio.Participante;
 
-/**
-Escreva uma classe Main que cria:
-    - um organizador
-    - dois participantes
-    - um evento
-imprime os dados com os métodos get e tenta gravar um valor inválido em cada
-set da tabela de validações.
- */
-
 public class App {
     public static void main(String[] args) throws Exception {
         Organizador org1 = new Organizador("Manuel", "maria@gmail.com", "marketing");
